@@ -16,8 +16,11 @@
 #
 
 Name:           nagios-plugins-eudat-b2note
-Version:	%{_version}
-Release:	%{_release}
+Version: 0.1.0
+Release: 1%{?dist}
+Group: Network/Monitoring
+Source0: %{name}-%{version}.tar.gz
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 License:	MIT License
 Summary:	nagios probe for b2note
 Url:		https://b2note.eudat.eu
