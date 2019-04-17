@@ -38,7 +38,6 @@ echo "The user that built this is %{_whoami}"
 # create string where git repo is started..
 workingdir=`pwd`
 cd %{_b2notehomepackaging}
-cd ../b2note
 b2notehome=`pwd`
 cd $workingdir
 # empty source directory and copy new files
